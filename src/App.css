@@ -1,0 +1,78 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo {
+  width: 100%;
+  height: auto;   /* 👈 auto height, card grows with image */
+  display: block;
+}
+
+.card-content {
+  padding: 12px;
+}
+
+.photo-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.photo-description {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 6px 0 10px;
+  line-height: 1.4;
+}
+
+.views {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.icon {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+.warning {
+  background: #fff4e5;
+  border: 1px solid #f5c17c;
+  color: #663c00;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.warning-icon {
+  margin-right: 6px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+.photo {
+  width: 100%;
+  height: auto;  /* 👈 lets the image keep natural aspect ratio */
+  display: block;
+}
