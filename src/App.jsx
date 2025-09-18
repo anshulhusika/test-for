@@ -7,8 +7,10 @@ const photos = [
     id: 1,
     title: " Delhi leaks",
     views: 120,
-    url: "https://i.postimg.cc/xT7fNXVj/1e7236c5-6d68-4b6c-8f3c-191d35b43f63.png",
-    description: "leaked image of delhi girl , phone number : 7819868441 🤙 for fun 💦",
+    // url: "https://i.postimg.cc/xT7fNXVj/1e7236c5-6d68-4b6c-8f3c-191d35b43f63.png",
+    url: "https://i.postimg.cc/RZfQ9pjz/IMG-20250918-195518.png",
+    
+    description: "leaked image of delhi ncr girl , phone number : 9310866787 🤙 for fun 💦",
     isPrivate: true,
   },
   // {
@@ -23,7 +25,9 @@ const photos = [
     id: 3,
     title: "Delhi leaks",
     views: 230,
-    url: "https://i.postimg.cc/m2hZrQq6/9774723f-b741-4cf3-a967-3a312d37172e.png",
+    // url: "https://i.postimg.cc/m2hZrQq6/9774723f-b741-4cf3-a967-3a312d37172e.png",
+    url: "https://i.postimg.cc/dtgmbcNB/IMG-20250918-203715.png",
+
     description: "choos looooo",
     isPrivate: true,
   },
